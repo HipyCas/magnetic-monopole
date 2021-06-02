@@ -10,6 +10,7 @@ use vector::*;
 const MS: u32 = 100;
 const MASS: f32 = 1 as f32;
 const CHARGE: f32 = 1 as f32;
+const INTENSITY: f32 = 1 as f32; // The monopole magnetic "intensity" (B = intensity / R²)
 
 fn main() {
     println!("Starting calculation...");
@@ -29,7 +30,7 @@ fn main() {
         force = magnetic_force(
             CHARGE,
             &velocity,
-            &north_pole_magnetic_field(position.x, position.y, position.z),
+            &north_pole_magnetic_field(INTENSITY, position.x, position.y, position.z),
         );
         acceleration = magnetic_acceleration(&force, MASS);
         //velocity = physics::velocity(&velocity, &acceleration, 0.1); //velocity + acceleration;
@@ -41,6 +42,6 @@ fn main() {
             "\n----- {}m -----\nForce: {:?}\nAcceleration: {:?}\nNew Velocity: {:?}\nPosition: {:?}",
             i, force, acceleration, velocity, position
         );
-        sleep_ms(MS);
+        //sleep_ms(MS);
     }
 }
