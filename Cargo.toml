@@ -6,6 +6,7 @@ edition = "2018"
 license = "GLP-3.0"
 license-file = "LICENSE"
 homepage = "https://github.com/hipycas/magnetic-monopole"
+description = "A simple calculation of the effects of a magnetic monopole"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
