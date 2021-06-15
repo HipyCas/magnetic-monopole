@@ -6,7 +6,7 @@ pub fn magnetic_force(q: f32, v: &Vec3, B: &Vec3) -> Vec3 {
 }
 
 // Not really used, we understand that we take a "unit" of time
-#[doc(deprecated)]
+#[doc(hidden)]
 pub fn velocity(v: &Vec3, a: &Vec3, t: f32) -> Vec3 {
   v + a * t
 }

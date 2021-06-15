@@ -1,8 +1,10 @@
 [package]
-name = "physics-engine"
+name = "magnetic-monopole"
 version = "0.1.0"
 authors = ["Hipy Cas <hipycas@gmail.com>"]
 edition = "2018"
+license = "GLP-3.0"
+homepage = "https://github.com/hipycas/magnetic-monopole"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
