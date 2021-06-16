@@ -4,6 +4,7 @@ version = "0.1.0"
 authors = ["Hipy Cas <hipycas@gmail.com>"]
 edition = "2018"
 license-file = "LICENSE"
+license = "GPL-3.0+"
 homepage = "https://github.com/hipycas/magnetic-monopole"
 description = "A simple calculation of the effects of a magnetic monopole"
 
