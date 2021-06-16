@@ -3,7 +3,6 @@ name = "magnetic-monopole"
 version = "0.1.0"
 authors = ["Hipy Cas <hipycas@gmail.com>"]
 edition = "2018"
-license = "GLP-3.0-or-later"
 license-file = "LICENSE"
 homepage = "https://github.com/hipycas/magnetic-monopole"
 description = "A simple calculation of the effects of a magnetic monopole"
